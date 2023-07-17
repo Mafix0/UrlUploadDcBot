@@ -36,10 +36,10 @@ logging.basicConfig(
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = "6304286810:AAHQO7dcrG00Dt63OyOmgTMLi43Lt1G8wFg"
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = "26489380"
+    API_HASH = "4167d8b8779aab33b73810feb3c77021"
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
@@ -68,9 +68,9 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3700
     # watermark file
     DEF_WATER_MARK_FILE = ""
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    LOG_CHANNEL = "Al_Noor_TV"
+    OWNER_ID = "932420516"
+    BOT_USERNAME = "MafixURLUploadBot"
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "0").split()})
     AUTH_USERS.append(OWNER_ID)
